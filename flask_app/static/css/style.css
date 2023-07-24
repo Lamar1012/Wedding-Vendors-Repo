@@ -1,0 +1,282 @@
+.login-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.login-background{
+    background-color: white
+}
+.login-logo{
+    width:50px;
+    position: absolute;
+    top: 5;
+    left: 37%;
+    align-items: center;
+    transform: translateX(-50%);
+    border-radius: 50%;
+}
+.company-name{
+    margin: auto;
+    align-items: center;
+}
+
+.login-header{
+    margin: auto;
+    display: flex;
+    text-align: center ;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.login-card{
+    width: 650px;
+    background-color: rgba(211, 211, 211, 0.162);
+    margin-bottom: 200px;
+    display: flex;
+    height: 550px;
+}
+.login-card-photo{
+    width: 300px;
+    height: 550px;
+    background-image: url(login-wedding.gif);
+}
+
+.login-statement{
+    margin-left: 20px;
+    padding: 20px;
+}
+
+#login-button{
+    margin-left: 20px;
+}
+
+.join{
+    text-decoration-line: none;
+    color: cyan;
+    font-weight:bolder;
+}
+
+.vendors-slogan{
+    padding:20px;
+    margin-top: 20px;
+    font-style: italic;
+
+}
+
+#vendors{
+    font-weight: bold;
+    font-style:inherit;
+}
+
+#users{
+    font-weight: bold;
+    font-style:inherit;
+}
+
+.register-card{
+    background-color:rgba(211, 211, 211, 0.162) ;
+    margin-left: 10px;
+    margin-top: 40px;
+    width: 650px;
+    height:950px;
+}
+
+.register-form-label{
+    color: black;
+}
+
+.register-header{
+    color: black;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.main_page_image{
+    width: 300px;
+    
+}
+
+.main_page_image_container{
+    margin-top: 40px; 
+    /* overflow: hidden; */
+}
+
+.vendors_main_container{
+    margin-top: 50px;
+}
+.vendors_main_top{
+    display: flex;
+    box-shadow: grey 3px 4px 5px;
+}
+
+.main_logo{
+    position: absolute;
+    align-items: center;
+    width: 100px;
+    top: 15%;
+    bottom: 70%;
+    right: 85%;
+}
+
+.main_company_name{
+    margin: auto;
+    align-items: center;
+}
+
+.ad_card{
+    width: 300px;
+    box-shadow: grey 3px 4px 5px;
+    border-radius: 5%;
+    margin-left: 20px;
+    align-items: center;
+}
+.ad_card_photo{
+    width: 200px;
+    border-radius: 50%;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+}
+
+.ad_card_star{
+    width: 40px;
+}
+
+.name_and_rating{
+    /* align-items: center; */
+    padding: 10px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.rating_and_star{
+    display: flex;
+}
+
+.category-container{
+    margin-top: 80px;
+}
+
+.vendor_company_name{
+    margin-left: 10px;
+}
+
+.category_name{
+    margin-left: 30px;
+    margin-top: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+}
+
+.rating {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content:left;
+}
+
+.rating>input {
+    display: none
+}
+
+.rating>label, .star {
+    position: relative;
+    width: 1em;
+    font-size: 30px;
+    font-weight: 300;
+    color: #FFD600;
+    cursor: pointer
+}
+
+.rating>label::before {
+    content: "\2605";
+    position: absolute;
+    opacity: 0
+}
+
+.rating>label:hover:before,
+.rating>label:hover~label:before {
+    opacity: 1 !important
+}
+
+.rating>input:checked~label:before {
+    opacity: 1
+}
+
+.rating:hover>input:checked~label:before {
+    opacity: 0.4
+}
+
+.create_ad_container{
+    /* border: red 1px solid; */
+    box-shadow: white 4px 3px 2px 2px;
+    width: 960px;
+    padding: 20px;
+    margin: auto;
+    margin-top: 10px;
+}
+.create_ad_box{
+    background-color: black;
+    color: white;
+    margin-top: 20px;
+    padding: 30px;
+    /* border-radius: 10%; */
+    /* position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
+
+}
+
+
+.create_add_title{
+    align-items: center;
+    margin: auto;
+    text-align: center;
+    margin-top: 80px;
+    color: white;
+    box-shadow: white 5px 5px 5px 5px;
+}
+
+.ad_create_label{
+    margin-top: 30px;
+}
+
+.user_name_and_image_container{
+    padding:30px;
+    margin: auto;
+    margin-top: 70px;
+    align-items: center;
+    text-align: center;
+    width: 400px;
+}
+
+.user_image{
+    box-shadow: gray 2px 3px 4px 5px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.user_account_container{
+    margin: auto;
+    width: 960px;
+}
+
+.messages_container{
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+.messages_container button{
+    text-decoration-line: none;
+    margin-right: 30px;
+    background-color: green;
+    color: white;
+    border: none;
+    box-shadow: white 2px 2px 2px 2px;
+}
+
+.messages_container li{
+    list-style: none;
+}
